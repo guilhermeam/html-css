@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas:
+            cm, mm, in(polegada), pt, pc
+
+            Medidas Relativas:
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /*
+            weight = peso
+            lighter, normal, bold, bolder - font's weight
+            */
+        }
+
+        /*h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+        }*/
+
+        h1 {
+            /* font-family: 'work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+            /* shorthand font
+            - font-style-> font weight-> font-size-> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, aut autem doloribus beatae dolorum deserunt maxime, tempora voluptatibus error tempore, commodi odit obcaecati non velit repellendus id maiores consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quis vero facilis exercitationem, tenetur ipsam beatae dicta velit reiciendis. Laboriosam atque nesciunt necessitatibus illo totam sit neque nulla, quam voluptatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique libero excepturi facere a, architecto, praesentium minima eligendi asperiores voluptas, explicabo est sit molestiae obcaecati nulla perferendis soluta dicta neque debitis!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vitae itaque accusamus cum neque voluptatibus, magnam aspernatur tenetur ducimus quas nulla blanditiis veniam sequi dolorum eius quo maxime rem. Rem?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti consequatur omnis. Odit debitis voluptatem obcaecati explicabo, quisquam cumque consectetur inventore porro magni aperiam alias ut quidem illum beatae dolores?</p>
+</body>
+</html>
